@@ -40,6 +40,7 @@ namespace Planetarium
 		public bool bShowPl=true, bPlLabel=false;
 		public Color stTxtColor = Color.Tomato;
 		public Font stTxtFont = new Font("Arial",8);
+		//Bools for starting, editing
 		public bool bShowSt=true, bStLabel=false, bShowCo=false, bCoLabel=false;
 		public bool bShowM=false, bMLabel=false, bShowEQ=false, bShowHOR=false, bGridLabel=false, bShowES=false;
 
@@ -147,6 +148,7 @@ namespace Planetarium
 			double nn = 1.5;
 
 			//horizontalna mreza
+			//horizontal grid
 			if (bShowHOR){
 				for (int i=0; i<19; ++i){
 					for (int j=0; j<25; ++j){
@@ -226,6 +228,7 @@ namespace Planetarium
 			}
 
 			//ekvatorijalna mreza
+			//equatorial grid
 			if (bShowEQ){
 				for (int i=0; i<19; ++i){
 					for (int j=0; j<25; ++j){
@@ -306,6 +309,8 @@ namespace Planetarium
 			}
 		}
 
+		//Constellations
+
 		public void DrawConstellations (Graphics g)
 		{
 			foreach (ConstellationLine c in DSData.constellation){
@@ -334,6 +339,8 @@ namespace Planetarium
 				}
 			}
 		}
+
+		//Drawing Stars
 
 		public void DrawStars (Graphics g)
 		{
@@ -401,6 +408,8 @@ namespace Planetarium
 			}
 		}
 
+		//Draw Messier Objects
+
 		public void DrawMessier (Graphics g)
 		{
 			foreach (Messier m in DSData.messier){
@@ -444,6 +453,8 @@ namespace Planetarium
 				}
 			}
 		}
+
+		//Not clear, likely drawing all the planets
 
 		public void DrawSol (Graphics g)
 		{
@@ -681,6 +692,8 @@ namespace Planetarium
 			}
 		}
 
+		//Draw Horizon
+
 		public void DrawHorizon (Graphics g)
 		{
 			SkyPos[] horizont = new SkyPos[34];
@@ -709,6 +722,8 @@ namespace Planetarium
 			if (bFull) g.FillPath (earCol, gp);
 			if (bLine) g.DrawPath (new Pen(earCol), gp);
 		}
+
+		//Unclear what this function does
 
 		public void DrawDirection (Graphics g, bool zn)
 		{
@@ -765,6 +780,8 @@ namespace Planetarium
 				}
 			}
 		}
+
+		//Unclear function
 
 		PointF ToScreanPt (SkyPos sp)
 		{

@@ -56,6 +56,7 @@ namespace Planetarium
 		public void TimeNow()
 		{
 			v_mainDT = DateTime.Now;
+			//System.Diagnostics.Debug.WriteLine("Testing");
 		}
 
 		public double SIDTIME{
