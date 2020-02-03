@@ -23,7 +23,7 @@ namespace Planetarium
 			return instance;
 		}
 
-		private DeepSpaceData()
+		private DeepSpaceData() //HYG.txt is the HYG stars database
 		{
 			Assembly a = Assembly.GetExecutingAssembly();
 			Stream txtStream = a.GetManifestResourceStream("Planetarium.Resources.HYG.txt");
@@ -61,7 +61,7 @@ namespace Planetarium
 			while (sr.Peek() >= 0) 
 			{
 				string str = sr.ReadLine();
-				if (str[0] != 'C')
+				if (str[0] != 'C') //C indicates something, likely new constellation
 				{
 					string[] split = str.Split(delimiter, 20);
 					constellation.Add (new ConstellationLine(Convert.ToDouble(split[0], provider)*15, Convert.ToDouble(split[1], provider),
