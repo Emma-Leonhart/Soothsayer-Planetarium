@@ -13,10 +13,11 @@ namespace Planetarium
 		{
 			this.designation = designation;
 			this.name = name;
-			this.skyPosition.RA = RA;
-			this.skyPosition.decl = decl;
-			this.magnitude = magnitude;
-			this.spectrum = spectrum;
+			this.skyPosition.RA = RA; //Right Ascension
+			this.skyPosition.decl = decl; //declination
+			this.magnitude = magnitude; //magnitude
+			this.spectrum = spectrum; //color and type
+			//new StarGod(string designation, string name, double RA, double decl, double magnitude, string spectrum)
 		}
 
 		public string spectrum
