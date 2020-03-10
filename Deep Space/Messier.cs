@@ -19,6 +19,7 @@ namespace Planetarium
 			this.skyPosition.RA = RA;
 			this.skyPosition.decl = decl;
 			this.type = type;
+			// new MessierGod(string designation, double RA, double decl, string type, string name)
 		}
 
 		public string type

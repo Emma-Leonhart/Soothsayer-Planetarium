@@ -12,10 +12,10 @@ namespace Planetarium
 	/// </summary>
 	public class DeepSpaceData
 	{
-		public ArrayList stars = new ArrayList();
-		public ArrayList messier = new ArrayList();
-		public ArrayList constellation = new ArrayList();
-		public ArrayList constellationNames = new ArrayList();
+		public ArrayList stars = new ArrayList(); //stars, their locations for sprites
+		public ArrayList messier = new ArrayList(); // messier objects and their locations for sprites
+		public ArrayList constellation = new ArrayList(); //constellation lines
+		public ArrayList constellationNames = new ArrayList(); // constellation names are locations for sprites
 
 		public static DeepSpaceData GetInstance(){
 			if( instance == null )
