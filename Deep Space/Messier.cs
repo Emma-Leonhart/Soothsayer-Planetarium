@@ -4,6 +4,7 @@ namespace Planetarium
 {
 	/// <summary>
 	/// Summary description for Messier.
+	/// Messier Objects are various Nebulae and Galaxies that are visible to the naked eye but not stars
 	/// </summary>
 	public class Messier : ADSObject
 	{
