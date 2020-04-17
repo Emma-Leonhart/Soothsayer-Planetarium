@@ -36,6 +36,7 @@ namespace Planetarium
 			while (sr.Peek() >= 0) 
 			{
 				string[] split = sr.ReadLine().Split(delimiter, 20);
+				//designation, name, RA, decl, magnitude, spectrum, 
 				stars.Add (new Star(split[0], split[1], Convert.ToDouble(split[2], provider)*15,
 					                Convert.ToDouble(split[3], provider), 
 					                Convert.ToDouble(split[4], provider), split[5]));

@@ -46,3 +46,16 @@ C:\Users\ericborsheim\Dropbox\Calendar\MannicCalendar\Soothsayer-Planetarium\obj
 C:\Users\ericborsheim\Dropbox\Calendar\MannicCalendar\Soothsayer-Planetarium\obj\Debug\Planetarium.csproj.GenerateResource.cache
 C:\Users\ericborsheim\Dropbox\Calendar\MannicCalendar\Soothsayer-Planetarium\obj\Debug\Planetarium.exe
 C:\Users\ericborsheim\Dropbox\Calendar\MannicCalendar\Soothsayer-Planetarium\obj\Debug\Planetarium.pdb
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\bin\Debug\Planetarium.exe
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\bin\Debug\Planetarium.pdb
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.csprojAssemblyReference.cache
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_MainForm.resources
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_PlanetData.resources
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_PlanetPosition.resources
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_SolarEvents.resources
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_SolarSystem.resources
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_ViewLocation.resources
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.csproj.GenerateResource.cache
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.csproj.CoreCompileInputs.cache
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.exe
+C:\Users\ericr\OneDrive\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.pdb
