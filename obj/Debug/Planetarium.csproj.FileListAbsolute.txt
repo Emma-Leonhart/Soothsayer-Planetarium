@@ -72,3 +72,5 @@ C:\Users\SiliconProphet\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planet
 C:\Users\SiliconProphet\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.csproj.CoreCompileInputs.cache
 C:\Users\SiliconProphet\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.exe
 C:\Users\SiliconProphet\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.pdb
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.exe
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.pdb
