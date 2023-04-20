@@ -74,3 +74,16 @@ C:\Users\SiliconProphet\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planet
 C:\Users\SiliconProphet\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.pdb
 C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.exe
 C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.pdb
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\bin\Debug\Planetarium.exe.config
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\bin\Debug\Planetarium.exe
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\bin\Debug\Planetarium.pdb
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.csproj.AssemblyReference.cache
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.csproj.SuggestedBindingRedirects.cache
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_MainForm.resources
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_PlanetData.resources
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_PlanetPosition.resources
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_SolarEvents.resources
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_SolarSystem.resources
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.f_ViewLocation.resources
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.csproj.GenerateResource.cache
+C:\Users\Immanuelle\Documents\GitHub\Soothsayer-Planetarium\obj\Debug\Planetarium.csproj.CoreCompileInputs.cache
