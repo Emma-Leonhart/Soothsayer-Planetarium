@@ -16,38 +16,29 @@ A desktop planetarium application for Windows that lets you observe the night sk
 
 ## Requirements
 
-This is a **.NET Framework 4.8** WinForms application. To build and run it you need:
+- **Windows** (10 or later)
+- [**.NET 8 SDK**](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) or later
 
-- **Windows** (10 or later recommended)
-- **Visual Studio 2019 or later** with the ".NET desktop development" workload installed
-- **.NET Framework 4.8 Developer Pack** ([download from Microsoft](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48))
+No Visual Studio required — just the SDK.
 
-> **Note:** This project targets .NET Framework (not .NET 5+/Core), so it only builds and runs on Windows. There is no cross-platform support.
-
-## Building
-
-1. Open `Planetarium.sln` in Visual Studio
-2. Select **Debug** or **Release** configuration
-3. Build the solution (`Ctrl+Shift+B`)
-4. Run with `F5` (debug) or find the executable in `bin/Debug/` or `bin/Release/`
-
-Alternatively, from a Developer Command Prompt:
+## Building & Running
 
 ```
-msbuild Planetarium.sln /p:Configuration=Release
+dotnet build
+dotnet run
 ```
+
+Or open `Planetarium.sln` in Visual Studio 2022+ / JetBrains Rider.
 
 ## Project Structure
 
 ```
-├── Deep Space/        Star, Messier, and constellation data classes
-├── Form/              WinForms UI (main form, dialogs, sky renderer)
-├── Perturbations/     Planetary perturbation calculations
-├── Position/          Observer location and coordinate systems
-├── Resources/         Embedded images, icons, cursors, and star/constellation data files
-├── Solar System/      Planet classes and orbital mechanics
-├── Planetarium.sln    Visual Studio solution file
-└── Planetarium.csproj MSBuild project file
+Deep Space/        Star, Messier, and constellation data classes
+Form/              WinForms UI (main form, dialogs, sky renderer)
+Perturbations/     Planetary perturbation calculations
+Position/          Observer location and coordinate systems
+Resources/         Embedded images, icons, cursors, and star/constellation data files
+Solar System/      Planet classes and orbital mechanics
 ```
 
 ## License
