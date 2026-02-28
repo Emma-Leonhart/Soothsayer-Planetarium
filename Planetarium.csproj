@@ -1,224 +1,21 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
-    <ProjectType>Local</ProjectType>
-    <ProductVersion>7.10.3077</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{8C3EB103-E765-4B58-8210-414499D57E3E}</ProjectGuid>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon>Form\App.ico</ApplicationIcon>
-    <AssemblyKeyContainerName />
-    <AssemblyName>Planetarium</AssemblyName>
-    <AssemblyOriginatorKeyFile />
-    <DefaultClientScript>JScript</DefaultClientScript>
-    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
-    <DefaultTargetSchema>IE50</DefaultTargetSchema>
-    <DelaySign>false</DelaySign>
     <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
     <RootNamespace>Planetarium</RootNamespace>
-    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
-    <StartupObject />
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
-    <UpgradeBackupLocation>
-    </UpgradeBackupLocation>
-    <OldToolsVersion>0.0</OldToolsVersion>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <TargetFrameworkProfile />
+    <AssemblyName>Planetarium</AssemblyName>
+    <ApplicationIcon>Form\App.ico</ApplicationIcon>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <OutputPath>bin\Debug\</OutputPath>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-    <BaseAddress>285212672</BaseAddress>
-    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
-    <ConfigurationOverrideFile />
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <DocumentationFile />
-    <DebugSymbols>true</DebugSymbols>
-    <FileAlignment>4096</FileAlignment>
-    <NoStdLib>false</NoStdLib>
-    <NoWarn />
-    <Optimize>false</Optimize>
-    <RegisterForComInterop>false</RegisterForComInterop>
-    <RemoveIntegerChecks>false</RemoveIntegerChecks>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <WarningLevel>4</WarningLevel>
-    <DebugType>full</DebugType>
-    <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>false</Prefer32Bit>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <OutputPath>bin\Release\</OutputPath>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-    <BaseAddress>285212672</BaseAddress>
-    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
-    <ConfigurationOverrideFile />
-    <DefineConstants>TRACE</DefineConstants>
-    <DocumentationFile />
-    <DebugSymbols>false</DebugSymbols>
-    <FileAlignment>4096</FileAlignment>
-    <NoStdLib>false</NoStdLib>
-    <NoWarn />
-    <Optimize>true</Optimize>
-    <RegisterForComInterop>false</RegisterForComInterop>
-    <RemoveIntegerChecks>false</RemoveIntegerChecks>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <WarningLevel>4</WarningLevel>
-    <DebugType>none</DebugType>
-    <ErrorReport>prompt</ErrorReport>
-    <Prefer32Bit>false</Prefer32Bit>
-  </PropertyGroup>
+
   <ItemGroup>
-    <Reference Include="System">
-      <Name>System</Name>
-    </Reference>
-    <Reference Include="System.Data">
-      <Name>System.Data</Name>
-    </Reference>
-    <Reference Include="System.Drawing">
-      <Name>System.Drawing</Name>
-    </Reference>
-    <Reference Include="System.Windows.Forms">
-      <Name>System.Windows.Forms</Name>
-    </Reference>
-    <Reference Include="System.Xml">
-      <Name>System.XML</Name>
-    </Reference>
+    <Compile Remove="Backup\**" />
+    <None Remove="Backup\**" />
   </ItemGroup>
+
   <ItemGroup>
-    <Compile Include="Deep Space\ADSObject.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Deep Space\ConstellationLine.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Deep Space\ConstellationName.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Deep Space\DeepSpaceData.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Deep Space\IDSObject.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Deep Space\Messier.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Deep Space\Stars.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Form\AngularDistance.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Form\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Form\f_MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\f_PlanetData.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\f_PlanetPosition.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\f_SolarEvents.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\f_SolarSystem.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\f_ViewLocation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\SkyView.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Perturbations\APerturbations.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Perturbations\IPerturbations.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Perturbations\PertElements.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Perturbations\PertJupiter.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Perturbations\PertMoon.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Perturbations\PertSaturn.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Perturbations\PertUranus.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Position\LocationST.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Position\PlanetPos.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Position\SkyPos.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\APlanet.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Earth.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\EarthShadow.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\ISolObject.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Jupiter.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Mars.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Mercury.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Moon.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Neptune.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Orbits.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\PlanetData.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Planets.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Pluto.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Saturn.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Sun.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Uranus.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Solar System\Venus.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Content Include="Form\App.ico" />
-    <Content Include="Resources\label.bmp" />
-    <Content Include="Resources\minus.ico" />
     <EmbeddedResource Include="Form\f_MainForm.resx">
       <DependentUpon>f_MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -237,6 +34,9 @@
     <EmbeddedResource Include="Form\f_ViewLocation.resx">
       <DependentUpon>f_ViewLocation.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Include="Resources\closed_hand.cur" />
     <EmbeddedResource Include="Resources\cn.bmp" />
     <EmbeddedResource Include="Resources\constellations.bmp" />
@@ -284,12 +84,5 @@
     <EmbeddedResource Include="Resources\SW.bmp" />
     <EmbeddedResource Include="Resources\W.bmp" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <PropertyGroup>
-    <PreBuildEvent />
-    <PostBuildEvent />
-  </PropertyGroup>
+
 </Project>
