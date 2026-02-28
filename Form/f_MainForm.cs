@@ -62,18 +62,18 @@ namespace Planetarium
 		private System.Windows.Forms.Button b_suDe;
 		private System.Windows.Forms.Timer timer3;
 		private System.Windows.Forms.Timer timer2;
-		private System.Windows.Forms.MenuItem m_Select;
-		private System.Windows.Forms.MenuItem m_Deselect;
-		private System.Windows.Forms.MenuItem m_Sun;
-		private System.Windows.Forms.MenuItem m_Moon;
-		private System.Windows.Forms.MenuItem m_Mercury;
-		private System.Windows.Forms.MenuItem m_Venus;
-		private System.Windows.Forms.MenuItem m_Mars;
-		private System.Windows.Forms.MenuItem m_Jupiter;
-		private System.Windows.Forms.MenuItem m_Saturn;
-		private System.Windows.Forms.MenuItem m_Uranus;
-		private System.Windows.Forms.MenuItem m_Neptune;
-		private System.Windows.Forms.MenuItem m_Pluto;
+		private System.Windows.Forms.ToolStripMenuItem m_Select;
+		private System.Windows.Forms.ToolStripMenuItem m_Deselect;
+		private System.Windows.Forms.ToolStripMenuItem m_Sun;
+		private System.Windows.Forms.ToolStripMenuItem m_Moon;
+		private System.Windows.Forms.ToolStripMenuItem m_Mercury;
+		private System.Windows.Forms.ToolStripMenuItem m_Venus;
+		private System.Windows.Forms.ToolStripMenuItem m_Mars;
+		private System.Windows.Forms.ToolStripMenuItem m_Jupiter;
+		private System.Windows.Forms.ToolStripMenuItem m_Saturn;
+		private System.Windows.Forms.ToolStripMenuItem m_Uranus;
+		private System.Windows.Forms.ToolStripMenuItem m_Neptune;
+		private System.Windows.Forms.ToolStripMenuItem m_Pluto;
 		private System.Windows.Forms.ToolTip tt_Stop;
 		private System.Windows.Forms.ToolTip tt_StepBack;
 		private System.Windows.Forms.ToolTip tt_StepForward;
@@ -240,18 +240,18 @@ namespace Planetarium
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
-            this.m_Select = new System.Windows.Forms.MenuItem();
-            this.m_Sun = new System.Windows.Forms.MenuItem();
-            this.m_Moon = new System.Windows.Forms.MenuItem();
-            this.m_Mercury = new System.Windows.Forms.MenuItem();
-            this.m_Venus = new System.Windows.Forms.MenuItem();
-            this.m_Mars = new System.Windows.Forms.MenuItem();
-            this.m_Jupiter = new System.Windows.Forms.MenuItem();
-            this.m_Saturn = new System.Windows.Forms.MenuItem();
-            this.m_Uranus = new System.Windows.Forms.MenuItem();
-            this.m_Neptune = new System.Windows.Forms.MenuItem();
-            this.m_Pluto = new System.Windows.Forms.MenuItem();
-            this.m_Deselect = new System.Windows.Forms.MenuItem();
+            this.m_Select = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_Sun = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_Moon = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_Mercury = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_Venus = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_Mars = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_Jupiter = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_Saturn = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_Uranus = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_Neptune = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_Pluto = new System.Windows.Forms.ToolStripMenuItem();
+            this.m_Deselect = new System.Windows.Forms.ToolStripMenuItem();
             this.tt_Stop = new System.Windows.Forms.ToolTip(this.components);
             this.tt_StepBack = new System.Windows.Forms.ToolTip(this.components);
             this.tt_StepForward = new System.Windows.Forms.ToolTip(this.components);
@@ -943,65 +943,53 @@ namespace Planetarium
             // timer3
             // 
             this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
-            // 
+            //
             // m_Select
-            // 
-            this.m_Select.Index = -1;
+            //
             this.m_Select.Text = "";
-            // 
+            //
             // m_Sun
-            // 
-            this.m_Sun.Index = -1;
+            //
             this.m_Sun.Text = "";
-            // 
+            //
             // m_Moon
-            // 
-            this.m_Moon.Index = -1;
+            //
             this.m_Moon.Text = "";
-            // 
+            //
             // m_Mercury
-            // 
-            this.m_Mercury.Index = -1;
+            //
             this.m_Mercury.Text = "";
-            // 
+            //
             // m_Venus
-            // 
-            this.m_Venus.Index = -1;
+            //
             this.m_Venus.Text = "";
-            // 
+            //
             // m_Mars
-            // 
-            this.m_Mars.Index = -1;
+            //
             this.m_Mars.Text = "";
-            // 
+            //
             // m_Jupiter
-            // 
-            this.m_Jupiter.Index = -1;
+            //
             this.m_Jupiter.Text = "";
-            // 
+            //
             // m_Saturn
-            // 
-            this.m_Saturn.Index = -1;
+            //
             this.m_Saturn.Text = "";
-            // 
+            //
             // m_Uranus
-            // 
-            this.m_Uranus.Index = -1;
+            //
             this.m_Uranus.Text = "";
-            // 
+            //
             // m_Neptune
-            // 
-            this.m_Neptune.Index = -1;
+            //
             this.m_Neptune.Text = "";
-            // 
+            //
             // m_Pluto
-            // 
-            this.m_Pluto.Index = -1;
+            //
             this.m_Pluto.Text = "";
-            // 
+            //
             // m_Deselect
-            // 
-            this.m_Deselect.Index = -1;
+            //
             this.m_Deselect.Text = "";
             // 
             // panel2
